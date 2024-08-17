@@ -29,20 +29,10 @@ export default function BaseInfo () {
   }, [editor?.sketch]);
 
   return (
-    <Text
-      editable={{
-        onChange: handleChange,
-        autoSize: {
-          minRows: 1,
-          maxRows: 1
-        }
-      }}
-      ellipsis={{
-        rows: 1
-      }}
+    <div
       style={{ margin: 0, width: 200 }}
     >
-      {desc || ''}
-    </Text>
+      {/* 测量画板 */}
+    </div>
   )
 }

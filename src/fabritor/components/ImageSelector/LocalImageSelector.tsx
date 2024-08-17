@@ -29,9 +29,9 @@ export default function LocalImageSelector (props) {
   return (
     <div>
       <Button type="primary" size="large" onClick={handleClick} {...rest}>
-        {t('panel.image.local')}
+        {/* {t('panel.image.local')} */}
+        导入图片
       </Button>
-
       <LocalFileSelector accept="image/*" ref={localFileSelectorRef} onChange={handleFileChange} />
     </div>
   );

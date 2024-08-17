@@ -8,7 +8,7 @@ export default function ImageSelector (props) {
   return (
     <Flex gap={10} justify="space-around">
       <LocalImagePanel {...rest} onChange={onChange} />
-      <RemoteImagePanel {...rest} onChange={onChange} />
+      {/* <RemoteImagePanel {...rest} onChange={onChange} /> */}
     </Flex>
   )
 }
